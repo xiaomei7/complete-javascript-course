@@ -1,6 +1,26 @@
 /**********************************************
 *** GENERAL
 **********************************************/
+.final-score {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 520px;
+    color: #555;
+    font-size: 18px;
+    font-family: 'Lato';
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+}
+
+.final-score:focus {
+    outline: none;
+}
+
+#dice-1 { top: 120px; }
+#dice-2 { top: 250px; }
 
 * {
     margin: 0;
@@ -70,7 +90,7 @@ body {
     margin-bottom: 130px;
 }
 
-.active { background-color: #f7f7f7; }
+.active { background -color: #f7f7f7; }
 .active .player-name { font-weight: 300; }
 
 .active .player-name::after {
